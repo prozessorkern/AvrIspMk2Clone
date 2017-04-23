@@ -59,10 +59,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "avrIspMK2clone"
+Date "2017-04-23"
+Rev "1.0"
+Comp "shimatta"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -372,7 +372,6 @@ NoConn ~ 6000 6350
 NoConn ~ 6000 6050
 NoConn ~ 6000 6150
 NoConn ~ 6000 5050
-NoConn ~ 4100 4450
 $Comp
 L VCC #PWR011
 U 1 1 588E91A9
@@ -685,14 +684,14 @@ Wire Wire Line
 Wire Wire Line
 	7050 1200 7050 1150
 Text Label 7200 1550 0    60   ~ 0
-MEASSURE
+MEASURE
 Wire Wire Line
 	7200 1550 7050 1550
 Connection ~ 7050 1550
 Wire Wire Line
 	6200 4950 6000 4950
 Text Label 6200 4950 0    60   ~ 0
-MEASSURE
+MEASURE
 Text Label 7050 1150 1    60   ~ 0
 VCC_OUT
 $Comp
@@ -1247,4 +1246,36 @@ Wire Wire Line
 Wire Wire Line
 	6150 1900 6150 1400
 Connection ~ 6150 1400
+$Comp
+L C C10
+U 1 1 58FCDFC6
+P 3850 6800
+F 0 "C10" H 3700 6900 50  0000 L CNN
+F 1 "100n" H 3650 6700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3888 6650 50  0001 C CNN
+F 3 "" H 3850 6800 50  0000 C CNN
+	1    3850 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 58FCF949
+P 3850 7050
+F 0 "#PWR030" H 3850 6800 50  0001 C CNN
+F 1 "GND" H 3855 6877 50  0000 C CNN
+F 2 "" H 3850 7050 50  0000 C CNN
+F 3 "" H 3850 7050 50  0000 C CNN
+	1    3850 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 7050 3850 6950
+Text Label 4050 4450 2    60   ~ 0
+AVREF
+Wire Wire Line
+	4100 4450 4050 4450
+Text Label 3850 6550 1    60   ~ 0
+AVREF
+Wire Wire Line
+	3850 6550 3850 6650
 $EndSCHEMATC

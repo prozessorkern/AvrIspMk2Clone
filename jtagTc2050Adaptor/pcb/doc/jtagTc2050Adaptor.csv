@@ -1,0 +1,17 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Ref.";
+1;"REF**";"Symbol_KiCAD-Logo_CopperAndSilkScreenTop";1;"KiCAD Logo";;;
+2;"REF***";"OSHW-Logo2_9.8x8mm_Copper";1;"OSHW-Logo2_9.8x8mm_Copper";;;
+3;"G***";"Shimatta_SolderMask";1;"LOGO";;;
+4;"C1,C3,C4,C6,C7";"C_0603_HandSoldering";5;"100n";;;
+5;"C2,C5,C8";"C_0603_HandSoldering";3;"1u";;;
+6;"CON1";"IDC_Header_Straight_10pins";1;"10PIN_JTAG_SWD";;;
+7;"P1";"Pin_Header_Straight_1x02_Pitch2.54mm";1;"CONN_01X02";;;
+8;"P2";"Pin_Header_Straight_1x01_Pitch2.54mm";1;"CONN_01X01";;;
+9;"P3,P4,P9,P10";"Pin_Header_Straight_1x03_Pitch2.54mm";4;"CONN_01X03";;;
+10;"P5";"USB_Mini-B";1;"USB_OTG";;;
+11;"P6";"IDC_Header_Straight_20pins";1;"CONN_02X10";;;
+12;"U1";"SSOP-28_5.3x10.2mm_Pitch0.65mm";1;"FT232RL";;;
+13;"U2";"SOT-223";1;"NCP1117ST50T3G_MountingTab";;;
+14;"D1,D2,D3";"LED_0805";3;"LED";;;
+15;"R1,R2,R3";"R_0603_HandSoldering";3;"270";;;
+16;"P7";"Pin_Header_Straight_2x03_Pitch2.54mm";1;"CONN_02X03";;;
