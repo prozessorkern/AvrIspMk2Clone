@@ -1,0 +1,3 @@
+# jtagTc2050Adaptor
+Adaptor PCB to connect a Tag Connect TC2050 10 Pin Needle adaptor to a standard 20 Pin JTAG Debugger
+There are some additional tools integrated like a USB-UART Converter which can be connected to the TC2050 by setting Jumpers...

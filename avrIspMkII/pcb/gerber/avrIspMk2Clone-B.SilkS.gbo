@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-01-09 revision c2fb336)-makepkg*
-G04 #@! TF.CreationDate,2017-04-23T15:34:07+02:00*
-G04 #@! TF.ProjectId,avrIspMk2Clone,6176724973704D6B32436C6F6E652E6B,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-05-12 revision b823d0b78)-makepkg*
+G04 #@! TF.CreationDate,2017-05-13T13:58:34+02:00*
+G04 #@! TF.ProjectId,avrIspMk2Clone,6176724973704D6B32436C6F6E652E6B,1.0*
 G04 #@! TF.FileFunction,Legend,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2017-01-09 revision c2fb336)-makepkg) date 04/23/17 15:34:07*
+G04 Created by KiCad (PCBNEW (2017-05-12 revision b823d0b78)-makepkg) date 05/13/17 13:58:34*
 %MOMM*%
 %LPD*%
 G01*
